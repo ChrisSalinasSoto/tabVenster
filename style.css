@@ -12,24 +12,45 @@ h1{
 
 .nieuws{
     width: 680px;
-    height: 805px;
+    height: 832px;
     border: 2px solid black;
     margin: auto;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
+    text-align: center;
     
 }
 
 .knoppen{
     overflow: hidden;
+    margin: auto;
 }
 
 .knoppen li{
     list-style-type: none;
     float: left;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
 }
 
 .knoppen li.actief{
+    background-color: orange;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+
+    padding:15px;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 0px;
+}
+
+li a:hover {
     background-color: orange;
 }
 
@@ -49,3 +70,9 @@ h1{
     border: 0;
     margin: 0 .3em;
 }
+
+ul.knoppen{
+    margin-left: 100px;
+}
+
+
